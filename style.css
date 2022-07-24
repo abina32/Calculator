@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+header {
+  font-size: 40px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-weight: bold;
+  padding: 30px 0;
+  text-align: center;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.cointainer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cointainer .tips {
+  background-color: #000000;
+  padding: 7px 0;
+  color: #fff;
+  font-style: italic;
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 316px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cointainer .tips #tips1 {
+  font-style: normal;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 20px #fff;
+  font-size: 20px;
+}
+
+.cointainer .tips #tips2 {
+  font-style: normal;
+  font-weight: bold;
+  text-shadow: 2px 2px 20px green;
+  font-size: 20px;
+}
+
+.cointainer #input {
+  width: 300px;
+  height: 60px;
+  margin-bottom: 3px;
+  padding: 0 13px;
+  font-size: 36px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.cointainer #result {
+  width: 300px;
+  height: 60px;
+  margin-bottom: 3px;
+  padding: 0 13px;
+  font-size: 36px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.cointainer #num {
+  font-size: 20px;
+  background-color: red;
+  color: #fff;
+  width: 80px;
+  height: 70px;
+  margin-bottom: 5px;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  transition: 0.18s background-color, 0.18s color;
+}
+
+
+.cointainer #num:hover{
+  background-color: rgb(159, 159, 159);
+  color: black;
+}
+
+
+.cointainer #ac {
+  font-size: 20px;
+  background-color: red;
+  color: #fff;
+  width: 330px;
+  height: 70px;
+  border: none;
+  background-color: black;
+  border-radius: 10px;
+  transition: 0.18s background-color, 0.18s color;
+}
+
+
+.cointainer #ac:hover{
+  background-color: rgb(159, 159, 159);
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
